@@ -2,11 +2,13 @@ import Counter from "./components/Counter";
 import Table from "./components/Table";
 
 
+
+
 function App() {
   return (
     <div className="App">
       
-      <Table></Table>
+      <Table/>
       
      <ul>
          <li>
@@ -26,7 +28,7 @@ function App() {
          </li>
      </ul>
 
-     <Table/>
+     
          
          <Counter/>
     </div>

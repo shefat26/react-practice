@@ -1,14 +1,21 @@
+import { useState } from "react"
 
 function Counter(){
 
-    const count = 5; 
 
+  const [count, setCount] = useState(5)
+     
+  console.log(count)
+   
     return(
 
         <div>
-          {count}
+          
         </div>
     )
 }
 
 export default Counter
+
+
+

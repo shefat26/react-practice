@@ -1,16 +1,16 @@
 
 
-function Table(){
+export default function Table(){
 
-    return (
+
+    return  (
 
         <div>
-             
-             <h1>Table</h1>
-             
+
+            Table
 
         </div>
     )
+
 }
 
-export default Table
